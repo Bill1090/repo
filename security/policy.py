@@ -1,3 +1,2 @@
-def allow(path):
-    allowed = ["repo"]
-    return any(p in path for p in allowed)
+def allowed(path):
+    return "repo" in path

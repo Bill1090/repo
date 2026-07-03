@@ -1,8 +1,5 @@
-SYSTEM = {
-    "name": "TERMUX LAB",
-    "version": "1.0",
-    "mode": "experimental"
-}
+SYSTEM_NAME = "TERMUX LAB"
+VERSION = "1.0"
 
 def info():
-    return SYSTEM
+    return {"system": SYSTEM_NAME, "version": VERSION}

@@ -1,9 +1,9 @@
 from meta.config import info
 
 def boot():
-    print("🧠 CORE ACTIVE")
+    print("🧠 SYSTEM BOOT")
     print(info())
-    print("✔ System running")
+    print("✔ CORE RUNNING")
 
 if __name__ == "__main__":
     boot()
